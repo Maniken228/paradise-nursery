@@ -1,0 +1,109 @@
+.cart__price {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.cart__total {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .card {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+
+    img {
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    .card__info {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      .card__info-title {
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: #ffffff;
+      }
+
+      .card__info-total {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        color: #ffffff;
+
+        button {
+          transition: all .3s ease;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(.95);
+          }
+        }
+      }
+
+      .card__info-price {
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        color: #ffffff;
+      }
+
+      .cart__total-button {
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        color: #ffffff;
+        background: #dc0217;
+        border: none;
+        padding: .5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all .3s ease;
+
+        &:hover {
+          transform: scale(.95);
+        }
+      }
+    }
+  }
+}
+
+.link {
+  margin: 0;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  padding: .5rem 1rem;
+  background: #09a35e;
+  border-radius: 5px;
+  transition: all .3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(.95);
+  }
+}
